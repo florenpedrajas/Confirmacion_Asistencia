@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet" />
+    <title>Boda Cati Oscar</title>
+</head>
+
+<body>
+    <section class="container1">
+        <img src="asset/portada.jpg" class="container_portada" alt="foto portada" />
+        <div>
+            <h2 class="container__text"><strong>Nuestra Boda</strong></h2>
+            <p class="nosotros">
+                Cati y Oscar
+            </p>
+        </div>
+    </section>
+    <section class="nosConocimos">
+        <div>
+            <p class="text">
+                <em>Nos conocimos de la manera más inesperada. </em><br /><em>Nos enamoramos cita tras cita.
+                </em><br /><em>Vivimos momentos inolvidables </em><br /><em>y ahora es el momento en el que diremos el
+                </em><br /><em>"Si Quiero".</em>
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section class="countdown">
+
+        <p class="ptext"> <em><strong>El dia tan esperado llegará en</strong></em></p>
+        <div class="charts">
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs" id="days"></span>
+                <h3>Dias</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs" id="hours"></span>
+                <h3>Horas</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs" id="minutes"></span>
+                <h3>Minutos</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+
+                <span class="text center-abs" id="seconds"></span>
+                <h3>Segundos</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="invitacion">
+        <div>
+            <p class="text">
+                <em>Tenemos el honor de invitarles a celebrar nuestro enlace matrimonial. </em><br />
+            </p>
+        </div>
+        </div>
+        <div class="ubicacion">
+            <h4>Ceremonia<br><a href="https://goo.gl/maps/qJnQQXQ94p57QXL4A" target="_blank">Ayuntamiento Añora</a>
+                <br>11.30 hrs.
+            </h4>
+            <div class="google-map"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.26557763665!2d-4.899998284832767!3d38.41222697964844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6caf88dbf561ef%3A0xbb784908f5815dce!2sAyuntamiento%20de%20A%C3%B1ora!5e0!3m2!1ses!2ses!4v1678691578917!5m2!1ses!2ses"></iframe>
+            </div>
+            <h4>Recepción<br><a href="https://goo.gl/maps/fPiA5UjhpSCajQQU9" target="_blank">Hacienda Santa
+                    Rosa</a><br>13.30 hrs</h4>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3154.642971665902!2d-4.822257684853445!3d37.75151937976376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d2487c2a82ff3%3A0x1aadffcfb9025750!2sHacienda%20Santa%20Rosa!5e0!3m2!1ses!2ses!4v1678691640638!5m2!1ses!2ses"></iframe>
+            </div>
+        </div>
+    </section>
+    <section class="asistencia">
+
+        <h3 class="text confirmacion"><strong>Confirmación de asistencia</strong></h3>
+        <h3 class="text">
+            Es muy importante para nosotros saber si nos acompañarás y así reservar tu lugar.<br />
+        </h3>
+        <div class="form"></div>
+        <h2>Nos vemos en la boda</h2>
+        <form action="https://formsubmit.co/fpedrajasm3@gmail.com" method="POST">
+            <label for="Nombre">Nombre Completo</label>
+            <input type="text" name="name">
+
+            <label for="email">Correo electronio</label>
+            <input type="text" name="email">
+
+            <label for="teléfono">Telefono</label>
+            <input type="number" name="telefono">
+
+            <label for="comments">Comentarios</label>
+            <textarea name="comments" cols="22" rows="5"></textarea>
+
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="hidden" name="_next" value="http://localhost:5501">
+            <input type="hidden" name="_captcha" value="false">
+
+        </form>
+        </div>
+    </section>
+
+    <section class="despedida">
+        <div>
+            <img src="asset/contraportada.jpg" class="container_portada" alt="foto portada" />
+            <h1 class="despedida__nosotros">Cati y Oscar</h1>
+            <h2 class="despedida__text"><strong>Te esperamos</strong></h2>
+
+           
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-4">
+            © 2023 Rocket 418.&nbsp;
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

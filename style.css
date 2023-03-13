@@ -1,0 +1,274 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+html {
+
+    line-height: 1.15;
+    font-family: "Lobster", cursive;
+}
+
+body {
+
+    font-style: normal;
+
+}
+
+.container_portada {
+    width: 100%;
+    margin: 0 auto;
+    /* min-height: 100vh; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
+    bottom: 0;
+    left: 0;
+}
+
+.container__text {
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 35%;
+    margin: 0 35%;
+    font-family: "Parisienne", cursive;
+}
+
+.nosotros {
+    width: 100%;
+    font-family: "Parisienne", cursive;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    margin: 0 40%;
+}
+
+.nosConocimos {
+    margin-top: 20%;
+    font-family: "Parisienne", cursive;
+    color: rgba(23, 22, 22, 0.676);
+    border-bottom: 5px double #e6ae92;
+    border-top: 5px double #e6ae92;
+    width: 100%;
+    padding: 5%;
+
+}
+
+.text {
+    /* margin-left: 15% ; */
+    font-size: 2rem;
+}
+
+.countdown {
+    border-bottom: 5px double #e6ae92;
+    font-size: 1.3rem;
+    color: rgba(23, 22, 22, 0.676);
+    font-family: "Parisienne", cursive;
+
+    margin: 0;
+}
+
+.ptext {
+    margin-left: 25%;
+}
+
+.center-abs {
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chart {
+    position: relative;
+    width: 25%;
+    height: 150px;
+    display: fl;
+}
+
+.chart h3 {
+    color: #fff;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 10px #000;
+}
+
+.chart svg {
+    z-index: 2;
+}
+
+/* DIV CIRCULO DE FONDO */
+.circle {
+    width: 65px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px #e6ae92 solid;
+    justify-content: space-between;
+}
+
+.text {
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* SVG CIRCULO */
+.outer {
+    fill: transparent;
+    stroke: #e6ae927b;
+    stroke-width: 10;
+    /* grosor del borde */
+    stroke-dasharray: 439;
+    /* numero de relleno del borde, se usa el mismo valor en el script.js */
+    transform: rotate(270deg) translate(-150px, 0);
+    /* giramos el circulo para que su apertura sea en la parte superior 
+    y ajustamos su posicion
+    */
+}
+
+.invitacion {
+
+    font-family: "Parisienne", cursive;
+    color: rgba(23, 22, 22, 0.676);
+    border-bottom: 5px double #e6ae92;
+    width: 100%;
+    height: min-content;
+    margin: 0;
+    padding: 5%;
+
+}
+
+.google-map {
+
+
+    margin: 0 auto;
+
+
+
+}
+
+.ubicacion {
+
+    text-align: center;
+
+
+    font-size: 1em;
+
+
+
+}
+
+.asistencia {
+    font-family: "Parisienne", cursive;
+    color: rgba(23, 22, 22, 0.676);
+    border-bottom: 5px double #e6ae92;
+    width: 100%;
+    height: min-content;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 5%;
+
+
+}
+
+.confirmacion {
+    color: #e6ae92;
+}
+
+label {
+    display: block;
+
+}
+
+textarea {
+
+    font-family: "Parisienne", cursive;
+    color: rgba(23, 22, 22, 0.676);
+    border: 1px double #e6ae92;
+    padding-left: 5%;
+    height: min-content;
+    margin: 0 auto;
+}
+
+input {
+    font-family: "Parisienne", cursive;
+    color: rgba(23, 22, 22, 0.676);
+    border: 1px double #e6ae92;
+    padding-left: 5%;
+    height: min-content;
+    margin: 0 auto;
+
+
+
+
+}
+
+.enviar {
+    background-color: #e6ae92;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.despedida {
+
+    width: 100%;
+    height: 300px;
+    margin-top: 2.5%;
+
+    position: relative;
+
+    z-index: 0;
+    pointer-events: none;
+    
+
+}
+
+.footer {
+    font-size: 1rem;
+    display: flex;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffb18a;
+
+    justify-content: center;
+    align-content: center;
+    transition: all 0.3s;
+}
+
+.despedida__nosotros {
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 65%;
+    margin: 0 30%;
+    font-family: "Parisienne", cursive;
+}
+
+.despedida__text {
+    width: 100%;
+    font-family: "Parisienne", cursive;
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    margin: 0 35%;
+}
